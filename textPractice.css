@@ -1,0 +1,116 @@
+.post{
+  font-family: Roboto; 
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+div{
+  border: 1px dashed black;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.first{
+
+  text-align: center;
+}
+
+.new{
+  color: rgb(250, 112, 20);
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.mac, .super{
+  font-weight: bold;
+}
+
+.super{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.price{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.buy{
+  background-color: rgb(77, 105, 227);
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 15px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  
+}
+
+.buy:hover{
+  opacity: 70%
+}
+
+.buy:active{
+  opacity: 30%
+}
+
+.second, .third{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.currency{
+  color: rgb(97, 95, 95);
+  font-size: 14px;
+}
+
+.indent{
+  margin-left: 3px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.positive{
+  color: green;
+  font-size: 15px;
+}
+
+.negative{
+  color: rgb(209, 95, 63);
+  font-size: 14px;
+  letter-spacing: 0.1px;
+}
+
+.big-num{
+  font-size: 25px;
+}
+
+.day{
+  font-size: 13px;
+}
+
+.prof-link{
+  color: rgb(65, 170, 240);
+}
+
+
+
+.main{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
