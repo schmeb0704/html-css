@@ -1,0 +1,72 @@
+div{
+  margin-bottom: 15px;
+  border: 1px dashed black;
+  padding: 10px; 
+}
+
+.logo{
+  width: 250px;
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.search{
+  min-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(152, 144, 144);
+  border-radius: 17px;
+  font-family: Arial;
+  box-shadow: 3px 4px 5px rgba(152, 144, 144, 0.5);
+}
+
+.name, .email{
+  display: block;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.randomp{
+  width: 200px;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+.yes, .no{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.yes{
+  margin-left: 10px;
+}
+
+.googBtns{
+  width: 300px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 0;
+  margin: 20px auto;
+  border: none;
+}
+
+.googbtn{
+  margin-left: 5px;
+  border: none;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.googbtn:hover{
+  background-color: rgb(160, 155, 155);
+}

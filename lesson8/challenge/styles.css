@@ -1,0 +1,117 @@
+div{
+  border: 1px dashed black;
+  margin-bottom: 15px;
+}
+
+.fname, .lname{
+  width: 144px;
+  margin-bottom: 8px;
+
+}
+
+.fname, .lname,.email{
+  box-sizing: border-box;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+
+  font-size: 14px;
+
+  border-radius: 8px;
+  border: 1px solid rgb(147, 144, 144);
+}
+
+.email{
+  display: block;
+  width: 292px;
+  margin-bottom: 8px;
+}
+
+.firstDiv, .secDiv{
+  width: 300px;
+  padding: 5px;
+}
+
+.sign-up{
+  width: 292px;
+  border: none;
+  color: white;
+  background-color: rgb(77, 124, 211);
+  font-weight: bold;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.sign-up:hover{
+  opacity: .8;
+}
+
+.sign-up:active{
+  opacity: .6;
+}
+
+.secDiv{
+  font-family: montserrat;
+  padding: 5px;
+  padding-top: 0;
+  width: 350px;
+}
+
+.header{
+  font-weight: 600;
+  font-size: 25px;
+
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.pickup, .dropoff{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+
+  width: 95%;
+
+  border: none;
+  background-color: rgb(240,240,240);
+  padding: 10px;
+  margin-right: 15px;
+
+
+}
+
+.dropoff{
+  margin-bottom: 20px;
+}
+
+.now, .later{
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  transition: opcatiy 0.15s;
+}
+
+.now:hover, .later:hover{
+  opacity: 0.8;
+}
+
+.now:active, .later:active{
+  opacity: 0.6;
+}
+
+
+.now{
+  background-color: black;
+  color: white;
+}
+
+.later{
+  background-color: rgb(220,220,220);
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+}

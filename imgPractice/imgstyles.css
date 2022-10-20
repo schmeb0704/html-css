@@ -1,0 +1,16 @@
+.catpic2{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.catpic{
+  width: 200px;
+  height: 200px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 100px;
+}

@@ -1,0 +1,110 @@
+div{
+  border: 1px dashed black;
+  margin-bottom: 15px;
+}
+
+label{
+  display: block;
+}
+
+.twitterCat{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.search1{
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid rgb(186, 185, 185);
+}
+
+.search2{
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 10px;
+  padding-right: 0;
+  border: 1px solid rgb(186, 185, 185);
+  min-width: 300px;
+  border-radius: 23px;
+  box-shadow: 5px 5px 8px rgba(135, 134, 134, 0.5);
+}
+
+.email-div{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(36, 23, 23, 0.5);
+}
+
+.search3{
+  border: 2px solid black;
+  min-width: 300px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.email-label{
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.agree{
+  font-size: 13px;
+}
+
+.join{
+  border: none;
+  color: white;
+  background-color: rgb(68, 125, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px ;
+  border-radius: 23px;
+  min-width: 360px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.join:hover{
+  opacity: 0.7;
+}
+
+.join:active{
+  opacity: .5;
+}
+
+.tweet{
+  background-color: rgb(72, 157, 236);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 15px;
+  vertical-align: middle;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+
+.tweet:hover{
+  box-shadow: 5px 5px 8px rgba(72, 157, 236, 0.5);
+}
+
+.tweet:active{
+  opacity: .5;
+}
+
+.twitter{
+  outline: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.twitclone{
+  padding: 10px;
+}
