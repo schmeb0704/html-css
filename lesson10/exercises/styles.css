@@ -1,0 +1,103 @@
+/* GENERAL FORMATTING */
+
+p{
+  /* border-bottom: 1px solid black; */
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 3px 10px;
+}
+
+@media only screen  and (max-width: 600px){
+  .card-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-card{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100px 150px 1fr;
+  column-gap: 5px;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0;
+
+}
+
+.description, .follow-button{
+  font-family: Poppins;
+}
+
+/* TEXT PART */
+ 
+.description{
+  /* border: 1px solid salmon; */
+  padding: 5px;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.name{
+  font-weight: 700;
+}
+
+.nickname, .popularity{
+  color: rgb(101 119 134);
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* PICTURE PART */
+
+.picture{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.prof-pic{
+  width: 77%;
+  height: 80%;
+  border-radius: 60%;
+}
+
+/* BUTTON PART */
+
+.follow-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.follow{
+  background-color: rgb(29 161 242);
+  border: none;
+  color: white;
+  font-family: Poppins;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-left: 5px;
+}
+
+.follow:hover{
+  opacity: 75%;
+}
+
+.follow:active{
+  opacity: 50%;
+}
+
+/* END */
+
