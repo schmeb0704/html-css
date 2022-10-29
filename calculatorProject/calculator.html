@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49d79d00c3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display-container">
+        <div class="display"></div>
+      </div>
+      <div class="button-container">
+        <div class="extras"></div>
+        <main class="main-btns">
+          <div class="buttons">
+            <div class="row1">
+              <span class="num-btn" id="btn-7">7</span>
+              <span class="num-btn" id="btn-8">8</span>
+              <span class="num-btn" id="btn-9">9</span>
+            </div>
+            <div class="row2">
+              <span class="num-btn" id="btn-4">4</span>
+              <span class="num-btn" id="btn-5">5</span>
+              <span class="num-btn" id="btn-6">6</span>              
+            </div>
+            <div class="row3">
+              <span class="num-btn" id="btn-1">1</span>
+              <span class="num-btn" id="btn-2">2</span>
+              <span class="num-btn" id="btn-3">3</span>
+            </div>
+            <div class="row4">
+              <span class="num-btn" id="btn-00">00</span>
+              <span class="num-btn" id="btn-0">0</span>
+              <span class="num-btn" id="btn-dot">.</span>
+            </div>
+          </div>
+          <div class="operators">
+            <span id="btn-del">
+              <i class="fa-solid fa-delete-left"></i>
+            </span>
+            <span class="operator-btns" id="btn-divide">/</span>
+            <span class="operator-btns" id="btn-multiply">x</span>
+            <span class="operator-btns" id="btn-subtract">-</span>
+            <span class="operator-btns" id="btn-add">+</span>
+            <span id="btn-equals">=</span>
+          </div>
+        </main>
+        
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

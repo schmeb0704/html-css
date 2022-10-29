@@ -1,0 +1,124 @@
+/* General formatting */
+
+*{
+  font-family: Orbitron;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px;
+}
+
+
+span{
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+
+  padding: 4px 8px;
+  padding-top: 26px;
+
+  box-shadow: 0px 0px 2px #aaaeaa ;
+  border-radius: 5px;
+
+  transition: background-color 0.15s;
+}
+
+span:hover{
+  background-color: #aaaeaa;
+}
+
+/* Conatiner formatting */
+
+.container{
+  width: 300px;
+  /* height: 600px; */
+  background-color: #16213E;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* display part */
+.display-container{
+  background-color: #367E18;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  height: 80px;
+  width: 100%;
+}
+
+.display{
+  height: 30px;
+  width: 50%;
+  color: white;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-right: 5px;
+}
+
+/* button formats */
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 3px;
+}
+
+/* numbers */
+.main-btns{
+  display: flex;
+  gap: 3px;
+  height: 300px;
+}
+
+.buttons{
+  background-color: #CFD2CF;
+  flex: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 5px;
+}
+
+.row1, .row2, .row3, .row4{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+
+/* operators */
+
+
+.operators{
+  background-color: #FFDE00;
+  flex: 30%;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;;
+}
+
+.operators span{
+  padding-top: 18px;
+}
+
+.extras{
+  background-color: #F5EDDC;
+
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
